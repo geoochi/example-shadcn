@@ -1,4 +1,14 @@
-import Page from './app/dashboard/page'
+import { HashRouter, Routes, Route } from 'react-router'
+import Page01 from './app/dashboard/page01'
+import Page02 from './app/dashboard/page02'
+
 export default function App() {
-  return <Page />
+  return (
+    <HashRouter>
+      <Routes>
+        <Route path='/page01' element={<Page01 />} />
+        <Route path='/page02' element={<Page02 />} />
+      </Routes>
+    </HashRouter>
+  )
 }
