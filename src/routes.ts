@@ -19,6 +19,7 @@ import DataTableDemo from './layout/DataTable'
 import DatePickerDemo from './layout/DatePicker'
 import DialogDemo from './layout/Dialog'
 import DrawerDemo from './layout/Drawer'
+import DropdownMenuDemo from './layout/DropdownMenu'
 import SidebarDemo from './layout/Sidebar'
 import PageDemo from './layout/Page'
 
@@ -32,7 +33,7 @@ const routes: Route[] = [
   { path: '/', name: 'Home', element: Home },
   { path: '/accordion', name: 'Accordion', element: AccordionDemo },
   { path: '/alert', name: 'Alert', element: AlertDemo },
-  { path: '/alert-dialog', name: 'AlertDialog', element: AlertDialogDemo },
+  { path: '/alert-dialog', name: 'Alert Dialog', element: AlertDialogDemo },
   { path: '/avatar', name: 'Avatar', element: AvatarDemo },
   { path: '/badge', name: 'Badge', element: BadgeDemo },
   { path: '/breadcrumb', name: 'Breadcrumb', element: BreadcrumbDemo },
@@ -45,11 +46,12 @@ const routes: Route[] = [
   { path: '/collapsible', name: 'Collapsible', element: CollapsibleDemo },
   { path: '/combobox', name: 'Combobox', element: ComboboxDemo },
   { path: '/command', name: 'Command', element: CommandDemo },
-  { path: '/context-menu', name: 'ContextMenu', element: ContextMenuDemo },
-  { path: '/data-table', name: 'DataTable', element: DataTableDemo },
-  { path: '/date-picker', name: 'DatePicker', element: DatePickerDemo },
+  { path: '/context-menu', name: 'Context Menu', element: ContextMenuDemo },
+  { path: '/data-table', name: 'Data Table', element: DataTableDemo },
+  { path: '/date-picker', name: 'Date Picker', element: DatePickerDemo },
   { path: '/dialog', name: 'Dialog', element: DialogDemo },
   { path: '/drawer', name: 'Drawer', element: DrawerDemo },
+  { path: '/dropdown-menu', name: 'Dropdown Menu', element: DropdownMenuDemo },
   { path: '/sidebar', name: 'Sidebar', element: SidebarDemo },
   { path: '/page', name: 'Page', element: PageDemo },
 ]
