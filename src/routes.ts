@@ -27,6 +27,7 @@ import InputOTPDemo from './layout/InputOTP'
 import LabelDemo from './layout/Label'
 import MenubarDemo from './layout/Menubar'
 import NavigationMenuDemo from './layout/NavigationMenu'
+import PaginationDemo from './layout/Pagination'
 import SidebarDemo from './layout/Sidebar'
 import PageDemo from './layout/Page'
 
@@ -70,6 +71,7 @@ const routes: Route[] = [
     name: 'Navigation Menu',
     element: NavigationMenuDemo,
   },
+  { path: '/pagination', name: 'Pagination', element: PaginationDemo },
   { path: '/sidebar', name: 'Sidebar', element: SidebarDemo },
   { path: '/page', name: 'Page', element: PageDemo },
 ]
