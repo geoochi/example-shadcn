@@ -33,6 +33,7 @@ import ProgressDemo from './layout/Progress'
 import RadioGroupDemo from './layout/RadioGroup'
 import ResizableDemo from './layout/Resizable'
 import ScrollAreaDemo from './layout/ScrollArea'
+import SelectDemo from './layout/Select'
 import SidebarDemo from './layout/Sidebar'
 import PageDemo from './layout/Page'
 
@@ -82,6 +83,7 @@ const routes: Route[] = [
   { path: '/radio-group', name: 'Radio Group', element: RadioGroupDemo },
   { path: '/resizable', name: 'Resizable', element: ResizableDemo },
   { path: '/scroll-area', name: 'Scroll Area', element: ScrollAreaDemo },
+  { path: '/select', name: 'Select', element: SelectDemo },
   { path: '/sidebar', name: 'Sidebar', element: SidebarDemo },
   { path: '/page', name: 'Page', element: PageDemo },
 ]
