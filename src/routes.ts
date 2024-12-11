@@ -28,6 +28,7 @@ import LabelDemo from './layout/Label'
 import MenubarDemo from './layout/Menubar'
 import NavigationMenuDemo from './layout/NavigationMenu'
 import PaginationDemo from './layout/Pagination'
+import PopoverDemo from './layout/Popover'
 import SidebarDemo from './layout/Sidebar'
 import PageDemo from './layout/Page'
 
@@ -72,6 +73,7 @@ const routes: Route[] = [
     element: NavigationMenuDemo,
   },
   { path: '/pagination', name: 'Pagination', element: PaginationDemo },
+  { path: '/popover', name: 'Popover', element: PopoverDemo },
   { path: '/sidebar', name: 'Sidebar', element: SidebarDemo },
   { path: '/page', name: 'Page', element: PageDemo },
 ]
