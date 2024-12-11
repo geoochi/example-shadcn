@@ -43,6 +43,7 @@ import SwitchDemo from './layout/Switch'
 import TableDemo from './layout/Table'
 import TabsDemo from './layout/Tabs'
 import TextareaDemo from './layout/TextArea'
+import ToggleDemo from './layout/Toggle'
 import PageDemo from './layout/Page'
 
 interface Route {
@@ -101,6 +102,7 @@ const routes: Route[] = [
   { path: '/table', name: 'Table', element: TableDemo },
   { path: '/tabs', name: 'Tabs', element: TabsDemo },
   { path: '/textarea', name: 'Textarea', element: TextareaDemo },
+  { path: '/toggle', name: 'Toggle', element: ToggleDemo },
   { path: '/page', name: 'Page', element: PageDemo },
 ]
 
