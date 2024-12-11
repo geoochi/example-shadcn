@@ -37,8 +37,8 @@ import SelectDemo from './layout/Select'
 import SeparatorDemo from './layout/Separator'
 import SheetDemo from './layout/Sheet'
 import SidebarDemo from './layout/Sidebar'
+import SkeletonDemo from './layout/Skeleton'
 import PageDemo from './layout/Page'
-
 interface Route {
   path: string
   name: string
@@ -89,6 +89,7 @@ const routes: Route[] = [
   { path: '/separator', name: 'Separator', element: SeparatorDemo },
   { path: '/sheet', name: 'Sheet', element: SheetDemo },
   { path: '/sidebar', name: 'Sidebar', element: SidebarDemo },
+  { path: '/skeleton', name: 'Skeleton', element: SkeletonDemo },
   { path: '/page', name: 'Page', element: PageDemo },
 ]
 
