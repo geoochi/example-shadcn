@@ -22,6 +22,7 @@ import DrawerDemo from './layout/Drawer'
 import DropdownMenuDemo from './layout/DropdownMenu'
 import FormDemo from './layout/Form'
 import HoverCardDemo from './layout/HoverCard'
+import InputDemo from './layout/Input'
 import SidebarDemo from './layout/Sidebar'
 import PageDemo from './layout/Page'
 
@@ -56,6 +57,7 @@ const routes: Route[] = [
   { path: '/dropdown-menu', name: 'Dropdown Menu', element: DropdownMenuDemo },
   { path: '/form', name: 'Form', element: FormDemo },
   { path: '/hover-card', name: 'Hover Card', element: HoverCardDemo },
+  { path: '/input', name: 'Input', element: InputDemo },
   { path: '/sidebar', name: 'Sidebar', element: SidebarDemo },
   { path: '/page', name: 'Page', element: PageDemo },
 ]
