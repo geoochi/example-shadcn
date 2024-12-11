@@ -4,6 +4,7 @@ import AccordionDemo from './layout/Accordion'
 import AlertDemo from './layout/Alert'
 import AlertDialogDemo from './layout/AlertDialog'
 import AvatarDemo from './layout/Avatar'
+import BadgeDemo from './layout/Badge'
 import PageDemo from './layout/Page'
 
 interface Route {
@@ -19,6 +20,7 @@ const routes: Route[] = [
   { path: '/alert', name: 'Alert', element: AlertDemo },
   { path: '/alert-dialog', name: 'AlertDialog', element: AlertDialogDemo },
   { path: '/avatar', name: 'Avatar', element: AvatarDemo },
+  { path: '/badge', name: 'Badge', element: BadgeDemo },
   { path: '/page', name: 'Page', element: PageDemo },
 ]
 
