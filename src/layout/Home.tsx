@@ -11,8 +11,8 @@ export default function Home() {
             route.name !== 'Home' && (
               <Link
                 className={cn(
-                  'text-center px-10 py-4 bg-gray-200',
-                  ' hover:bg-blue-500 hover:text-white rounded-md'
+                  'text-center px-10 py-4 outline outline-1 outline-gray-300',
+                  ' hover:bg-gray-100 rounded-md'
                 )}
                 key={route.path}
                 to={route.path}
