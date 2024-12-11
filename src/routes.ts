@@ -12,6 +12,7 @@ import CarouselDemo from './layout/Carousel'
 import ChartDemo from './layout/Chart'
 import CheckboxDemo from './layout/CheckBox'
 import CollapsibleDemo from './layout/Collapsible'
+import ComboboxDemo from './layout/Combobox'
 import SidebarDemo from './layout/Sidebar'
 import PageDemo from './layout/Page'
 interface Route {
@@ -35,6 +36,7 @@ const routes: Route[] = [
   { path: '/chart', name: 'Chart', element: ChartDemo },
   { path: '/checkbox', name: 'Checkbox', element: CheckboxDemo },
   { path: '/collapsible', name: 'Collapsible', element: CollapsibleDemo },
+  { path: '/combobox', name: 'Combobox', element: ComboboxDemo },
   { path: '/sidebar', name: 'Sidebar', element: SidebarDemo },
   { path: '/page', name: 'Page', element: PageDemo },
 ]
