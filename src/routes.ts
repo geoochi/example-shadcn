@@ -15,8 +15,10 @@ import CollapsibleDemo from './layout/Collapsible'
 import ComboboxDemo from './layout/Combobox'
 import CommandDemo from './layout/Command'
 import ContextMenuDemo from './layout/ContextMenu'
+import DataTableDemo from './layout/DataTable'
 import SidebarDemo from './layout/Sidebar'
 import PageDemo from './layout/Page'
+
 interface Route {
   path: string
   name: string
@@ -41,6 +43,7 @@ const routes: Route[] = [
   { path: '/combobox', name: 'Combobox', element: ComboboxDemo },
   { path: '/command', name: 'Command', element: CommandDemo },
   { path: '/context-menu', name: 'ContextMenu', element: ContextMenuDemo },
+  { path: '/data-table', name: 'DataTable', element: DataTableDemo },
   { path: '/sidebar', name: 'Sidebar', element: SidebarDemo },
   { path: '/page', name: 'Page', element: PageDemo },
 ]
