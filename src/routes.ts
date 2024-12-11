@@ -13,6 +13,7 @@ import ChartDemo from './layout/Chart'
 import CheckboxDemo from './layout/CheckBox'
 import CollapsibleDemo from './layout/Collapsible'
 import ComboboxDemo from './layout/Combobox'
+import CommandDemo from './layout/Command'
 import SidebarDemo from './layout/Sidebar'
 import PageDemo from './layout/Page'
 interface Route {
@@ -37,6 +38,7 @@ const routes: Route[] = [
   { path: '/checkbox', name: 'Checkbox', element: CheckboxDemo },
   { path: '/collapsible', name: 'Collapsible', element: CollapsibleDemo },
   { path: '/combobox', name: 'Combobox', element: ComboboxDemo },
+  { path: '/command', name: 'Command', element: CommandDemo },
   { path: '/sidebar', name: 'Sidebar', element: SidebarDemo },
   { path: '/page', name: 'Page', element: PageDemo },
 ]
