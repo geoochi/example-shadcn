@@ -10,7 +10,6 @@ export default function ProgressDemo() {
     const timer = setInterval(() => {
       ratio += 0.1
       if (ratio <= 1) {
-        console.log(ratio)
         setProgress(100 * ratio)
       } else {
         clearInterval(timer)
