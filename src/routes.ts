@@ -35,6 +35,7 @@ import ResizableDemo from './layout/Resizable'
 import ScrollAreaDemo from './layout/ScrollArea'
 import SelectDemo from './layout/Select'
 import SeparatorDemo from './layout/Separator'
+import SheetDemo from './layout/Sheet'
 import SidebarDemo from './layout/Sidebar'
 import PageDemo from './layout/Page'
 
@@ -86,6 +87,7 @@ const routes: Route[] = [
   { path: '/scroll-area', name: 'Scroll Area', element: ScrollAreaDemo },
   { path: '/select', name: 'Select', element: SelectDemo },
   { path: '/separator', name: 'Separator', element: SeparatorDemo },
+  { path: '/sheet', name: 'Sheet', element: SheetDemo },
   { path: '/sidebar', name: 'Sidebar', element: SidebarDemo },
   { path: '/page', name: 'Page', element: PageDemo },
 ]
