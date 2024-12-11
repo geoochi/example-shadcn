@@ -6,7 +6,7 @@ export default function CalendarDemo() {
   const [date, setDate] = useState<Date | undefined>(new Date())
 
   return (
-    <div className='flex justify-center items-center h-screen'>
+    <div className='flex h-screen items-center justify-center'>
       <Calendar
         mode='single'
         selected={date}

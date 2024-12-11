@@ -12,9 +12,9 @@ import {
 
 export default function AlertDialogDemo() {
   return (
-    <div className='flex justify-center items-center h-screen'>
+    <div className='flex h-screen items-center justify-center'>
       <AlertDialog>
-        <AlertDialogTrigger className='px-10 py-4 rounded-md outline outline-1 outline-gray-300'>
+        <AlertDialogTrigger className='rounded-md px-10 py-4 outline outline-1 outline-gray-300'>
           Show Dialog
         </AlertDialogTrigger>
         <AlertDialogContent>

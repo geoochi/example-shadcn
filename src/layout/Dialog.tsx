@@ -13,7 +13,7 @@ import { Label } from '@/components/ui/label'
 
 export default function DialogDemo() {
   return (
-    <div className='flex justify-center items-center h-screen'>
+    <div className='flex h-screen items-center justify-center'>
       <Dialog>
         <DialogTrigger asChild>
           <Button variant='outline'>Edit Profile</Button>

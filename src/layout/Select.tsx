@@ -10,7 +10,7 @@ import {
 
 export default function SelectDemo() {
   return (
-    <div className='flex justify-center items-center h-screen'>
+    <div className='flex h-screen items-center justify-center'>
       <Select>
         <SelectTrigger className='w-[180px]'>
           <SelectValue placeholder='Select a fruit' />

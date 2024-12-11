@@ -20,8 +20,8 @@ import {
 
 export default function CommandDemo() {
   return (
-    <div className='flex justify-center items-center h-screen'>
-      <Command className='rounded-lg border shadow-md w-[450px] h-auto'>
+    <div className='flex h-screen items-center justify-center'>
+      <Command className='h-auto w-[450px] rounded-lg border shadow-md'>
         <CommandInput placeholder='Type a command or search...' />
         <CommandList>
           <CommandEmpty>No results found.</CommandEmpty>

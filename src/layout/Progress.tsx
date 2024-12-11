@@ -19,7 +19,7 @@ export default function ProgressDemo() {
   }, [])
 
   return (
-    <div className='flex justify-center items-center h-screen'>
+    <div className='flex h-screen items-center justify-center'>
       <Progress value={progress} className='w-[60%]' />
     </div>
   )

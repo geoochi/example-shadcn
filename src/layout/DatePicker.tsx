@@ -15,7 +15,7 @@ export default function DatePickerDemo() {
   const [date, setDate] = useState<Date>()
 
   return (
-    <div className='flex justify-center items-center h-screen'>
+    <div className='flex h-screen items-center justify-center'>
       <Popover>
         <PopoverTrigger asChild>
           <Button

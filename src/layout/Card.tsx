@@ -19,7 +19,7 @@ import {
 
 export default function CardWithForm() {
   return (
-    <div className='flex justify-center items-center h-screen'>
+    <div className='flex h-screen items-center justify-center'>
       <Card className='w-[350px]'>
         <CardHeader>
           <CardTitle>Create project</CardTitle>

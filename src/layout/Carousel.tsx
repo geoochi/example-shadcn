@@ -9,7 +9,7 @@ import {
 
 export default function CarouselDemo() {
   return (
-    <div className='flex justify-center items-center h-screen'>
+    <div className='flex h-screen items-center justify-center'>
       <Carousel className='w-full max-w-xs'>
         <CarouselContent>
           {Array.from({ length: 5 }).map((_, index) => (

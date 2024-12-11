@@ -7,7 +7,7 @@ const tags = Array.from({ length: 50 }).map(
 
 export default function ScrollAreaDemo() {
   return (
-    <div className='flex justify-center items-center h-screen'>
+    <div className='flex h-screen items-center justify-center'>
       <ScrollArea className='h-72 w-48 rounded-md border'>
         <div className='p-4'>
           <h4 className='mb-4 text-sm font-medium leading-none'>Tags</h4>

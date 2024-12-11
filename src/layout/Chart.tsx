@@ -33,8 +33,8 @@ const chartConfig = {
 
 export default function ChartDemo() {
   return (
-    <div className='flex justify-center items-center h-screen'>
-      <ChartContainer config={chartConfig} className='min-w-[400px] w-1/2'>
+    <div className='flex h-screen items-center justify-center'>
+      <ChartContainer config={chartConfig} className='w-1/2 min-w-[400px]'>
         <BarChart accessibilityLayer data={chartData}>
           <CartesianGrid vertical={false} />
           <XAxis

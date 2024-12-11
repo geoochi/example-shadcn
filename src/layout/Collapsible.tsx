@@ -12,7 +12,7 @@ export default function CollapsibleDemo() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <div className='flex justify-center items-center h-screen'>
+    <div className='flex h-screen items-center justify-center'>
       <Collapsible
         open={isOpen}
         onOpenChange={setIsOpen}

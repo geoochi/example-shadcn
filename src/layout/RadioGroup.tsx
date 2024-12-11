@@ -3,7 +3,7 @@ import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group'
 
 export default function RadioGroupDemo() {
   return (
-    <div className='flex justify-center items-center h-screen'>
+    <div className='flex h-screen items-center justify-center'>
       <RadioGroup defaultValue='comfortable'>
         <div className='flex items-center space-x-2'>
           <RadioGroupItem value='default' id='r1' />

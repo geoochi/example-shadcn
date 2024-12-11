@@ -16,7 +16,7 @@ import {
 
 export default function BreadcrumbDemo() {
   return (
-    <div className='flex flex-col gap-4 justify-center items-center h-screen'>
+    <div className='flex h-screen flex-col items-center justify-center gap-4'>
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>

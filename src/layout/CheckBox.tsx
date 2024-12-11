@@ -2,7 +2,7 @@ import { Checkbox } from '@/components/ui/checkbox'
 
 export default function CheckboxDemo() {
   return (
-    <div className='flex justify-center items-center h-screen space-x-2'>
+    <div className='flex h-screen items-center justify-center space-x-2'>
       <Checkbox id='terms' />
       <label
         htmlFor='terms'

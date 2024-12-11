@@ -194,7 +194,7 @@ export default function DataTableDemo() {
   })
 
   return (
-    <div className='flex justify-center items-center h-screen'>
+    <div className='flex h-screen items-center justify-center'>
       <div className='w-[600px]'>
         <div className='flex items-center py-4'>
           <Input
@@ -283,7 +283,7 @@ export default function DataTableDemo() {
           </Table>
         </div>
         <div className='flex items-center justify-end space-x-2 py-4'>
-          <div className='flex-1 text-sm text-muted-foreground'>
+          <div className='text-muted-foreground flex-1 text-sm'>
             {table.getFilteredSelectedRowModel().rows.length} of{' '}
             {table.getFilteredRowModel().rows.length} row(s) selected.
           </div>

@@ -3,7 +3,7 @@ import { Terminal } from 'lucide-react'
 
 export default function AlertDemo() {
   return (
-    <div className='flex flex-col gap-6 justify-center items-center h-screen'>
+    <div className='flex h-screen flex-col items-center justify-center gap-6'>
       <Alert className='w-1/2'>
         <Terminal className='h-4 w-4' />
         <AlertTitle>Heads up!</AlertTitle>

@@ -4,7 +4,7 @@ const srcs = ['https://github.com/geoochi.png', 'https://github.com/shadcn.png']
 
 export default function AvatarDemo() {
   return (
-    <div className='flex justify-center items-center h-screen'>
+    <div className='flex h-screen items-center justify-center'>
       {srcs.map((src, index) => (
         <Avatar
           key={src}

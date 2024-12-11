@@ -7,7 +7,7 @@ import {
 
 export default function InputOTPDemo() {
   return (
-    <div className='flex justify-center items-center h-screen'>
+    <div className='flex h-screen items-center justify-center'>
       <InputOTP maxLength={6}>
         <InputOTPGroup>
           <InputOTPSlot index={0} />
