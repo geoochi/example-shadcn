@@ -26,6 +26,7 @@ import InputDemo from './layout/Input'
 import InputOTPDemo from './layout/InputOTP'
 import LabelDemo from './layout/Label'
 import MenubarDemo from './layout/Menubar'
+import NavigationMenuDemo from './layout/NavigationMenu'
 import SidebarDemo from './layout/Sidebar'
 import PageDemo from './layout/Page'
 
@@ -64,6 +65,11 @@ const routes: Route[] = [
   { path: '/input-otp', name: 'Input OTP', element: InputOTPDemo },
   { path: '/label', name: 'Label', element: LabelDemo },
   { path: '/menubar', name: 'Menubar', element: MenubarDemo },
+  {
+    path: '/navigation-menu',
+    name: 'Navigation Menu',
+    element: NavigationMenuDemo,
+  },
   { path: '/sidebar', name: 'Sidebar', element: SidebarDemo },
   { path: '/page', name: 'Page', element: PageDemo },
 ]
