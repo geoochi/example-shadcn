@@ -20,6 +20,7 @@ import DatePickerDemo from './layout/DatePicker'
 import DialogDemo from './layout/Dialog'
 import DrawerDemo from './layout/Drawer'
 import DropdownMenuDemo from './layout/DropdownMenu'
+import FormDemo from './layout/Form'
 import SidebarDemo from './layout/Sidebar'
 import PageDemo from './layout/Page'
 
@@ -52,6 +53,7 @@ const routes: Route[] = [
   { path: '/dialog', name: 'Dialog', element: DialogDemo },
   { path: '/drawer', name: 'Drawer', element: DrawerDemo },
   { path: '/dropdown-menu', name: 'Dropdown Menu', element: DropdownMenuDemo },
+  { path: '/form', name: 'Form', element: FormDemo },
   { path: '/sidebar', name: 'Sidebar', element: SidebarDemo },
   { path: '/page', name: 'Page', element: PageDemo },
 ]
