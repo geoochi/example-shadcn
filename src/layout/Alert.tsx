@@ -1,7 +1,7 @@
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert'
 import { Terminal } from 'lucide-react'
 
-export default function MyAlert() {
+export default function AlertDemo() {
   return (
     <div className='flex flex-col gap-6 justify-center items-center h-screen'>
       <Alert className='w-1/2'>

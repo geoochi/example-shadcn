@@ -1,10 +1,10 @@
 import Home from './layout/Home'
-import Sidebar from './layout/Sidebar'
-import MyAccordion from './layout/Accordion'
-import MyAlert from './layout/Alert'
-import MyAlertDialog from './layout/AlertDialog'
-import Page01 from './layout/Page01'
-import Page02 from './layout/Page02'
+import SidebarDemo from './layout/Sidebar'
+import AccordionDemo from './layout/Accordion'
+import AlertDemo from './layout/Alert'
+import AlertDialogDemo from './layout/AlertDialog'
+import AvatarDemo from './layout/Avatar'
+import PageDemo from './layout/Page'
 
 interface Route {
   path: string
@@ -14,12 +14,12 @@ interface Route {
 
 const routes: Route[] = [
   { path: '/', name: 'Home', element: Home },
-  { path: '/sidebar', name: 'Sidebar', element: Sidebar },
-  { path: '/accordion', name: 'Accordion', element: MyAccordion },
-  { path: '/alert', name: 'Alert', element: MyAlert },
-  { path: '/alert-dialog', name: 'AlertDialog', element: MyAlertDialog },
-  { path: '/page01', name: 'Page01', element: Page01 },
-  { path: '/page02', name: 'Page02', element: Page02 },
+  { path: '/sidebar', name: 'Sidebar', element: SidebarDemo },
+  { path: '/accordion', name: 'Accordion', element: AccordionDemo },
+  { path: '/alert', name: 'Alert', element: AlertDemo },
+  { path: '/alert-dialog', name: 'AlertDialog', element: AlertDialogDemo },
+  { path: '/avatar', name: 'Avatar', element: AvatarDemo },
+  { path: '/page', name: 'Page', element: PageDemo },
 ]
 
 export default routes

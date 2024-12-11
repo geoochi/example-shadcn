@@ -5,7 +5,7 @@ import {
   AccordionTrigger,
 } from '@/components/ui/accordion'
 
-export default function MyAccordion() {
+export default function AccordionDemo() {
   return (
     <div className='flex justify-center items-center h-screen'>
       <Accordion className='w-96' type='single' collapsible>
