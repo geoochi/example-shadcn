@@ -40,6 +40,7 @@ import SidebarDemo from './layout/Sidebar'
 import SkeletonDemo from './layout/Skeleton'
 import SliderDemo from './layout/Slider'
 import SwitchDemo from './layout/Switch'
+import TableDemo from './layout/Table'
 import PageDemo from './layout/Page'
 
 interface Route {
@@ -95,6 +96,7 @@ const routes: Route[] = [
   { path: '/skeleton', name: 'Skeleton', element: SkeletonDemo },
   { path: '/slider', name: 'Slider', element: SliderDemo },
   { path: '/switch', name: 'Switch', element: SwitchDemo },
+  { path: '/table', name: 'Table', element: TableDemo },
   { path: '/page', name: 'Page', element: PageDemo },
 ]
 
