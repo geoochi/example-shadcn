@@ -45,6 +45,7 @@ import TabsDemo from './layout/Tabs'
 import TextareaDemo from './layout/TextArea'
 import ToggleDemo from './layout/Toggle'
 import ToggleGroupDemo from './layout/ToggleGroup'
+import TooltipDemo from './layout/Tooltip'
 import PageDemo from './layout/Page'
 
 interface Route {
@@ -105,6 +106,7 @@ const routes: Route[] = [
   { path: '/textarea', name: 'Textarea', element: TextareaDemo },
   { path: '/toggle', name: 'Toggle', element: ToggleDemo },
   { path: '/toggle-group', name: 'Toggle Group', element: ToggleGroupDemo },
+  { path: '/tooltip', name: 'Tooltip', element: TooltipDemo },
   { path: '/page', name: 'Page', element: PageDemo },
 ]
 
