@@ -7,6 +7,7 @@ import BadgeDemo from './layout/Badge'
 import BreadcrumbDemo from './layout/Breadcrumb'
 import ButtonDemo from './layout/Button'
 import CalendarDemo from './layout/Calendar'
+import CardDemo from './layout/Card'
 import SidebarDemo from './layout/Sidebar'
 import PageDemo from './layout/Page'
 
@@ -26,6 +27,7 @@ const routes: Route[] = [
   { path: '/breadcrumb', name: 'Breadcrumb', element: BreadcrumbDemo },
   { path: '/button', name: 'Button', element: ButtonDemo },
   { path: '/calendar', name: 'Calendar', element: CalendarDemo },
+  { path: '/card', name: 'Card', element: CardDemo },
   { path: '/sidebar', name: 'Sidebar', element: SidebarDemo },
   { path: '/page', name: 'Page', element: PageDemo },
 ]
