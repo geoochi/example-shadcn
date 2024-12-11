@@ -14,6 +14,7 @@ import CheckboxDemo from './layout/CheckBox'
 import CollapsibleDemo from './layout/Collapsible'
 import ComboboxDemo from './layout/Combobox'
 import CommandDemo from './layout/Command'
+import ContextMenuDemo from './layout/ContextMenu'
 import SidebarDemo from './layout/Sidebar'
 import PageDemo from './layout/Page'
 interface Route {
@@ -39,6 +40,7 @@ const routes: Route[] = [
   { path: '/collapsible', name: 'Collapsible', element: CollapsibleDemo },
   { path: '/combobox', name: 'Combobox', element: ComboboxDemo },
   { path: '/command', name: 'Command', element: CommandDemo },
+  { path: '/context-menu', name: 'ContextMenu', element: ContextMenuDemo },
   { path: '/sidebar', name: 'Sidebar', element: SidebarDemo },
   { path: '/page', name: 'Page', element: PageDemo },
 ]
