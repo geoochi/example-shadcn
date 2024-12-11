@@ -17,6 +17,7 @@ import CommandDemo from './layout/Command'
 import ContextMenuDemo from './layout/ContextMenu'
 import DataTableDemo from './layout/DataTable'
 import DatePickerDemo from './layout/DatePicker'
+import DialogDemo from './layout/Dialog'
 import SidebarDemo from './layout/Sidebar'
 import PageDemo from './layout/Page'
 
@@ -46,6 +47,7 @@ const routes: Route[] = [
   { path: '/context-menu', name: 'ContextMenu', element: ContextMenuDemo },
   { path: '/data-table', name: 'DataTable', element: DataTableDemo },
   { path: '/date-picker', name: 'DatePicker', element: DatePickerDemo },
+  { path: '/dialog', name: 'Dialog', element: DialogDemo },
   { path: '/sidebar', name: 'Sidebar', element: SidebarDemo },
   { path: '/page', name: 'Page', element: PageDemo },
 ]
