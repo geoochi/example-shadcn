@@ -8,6 +8,7 @@ import BreadcrumbDemo from './layout/Breadcrumb'
 import ButtonDemo from './layout/Button'
 import CalendarDemo from './layout/Calendar'
 import CardDemo from './layout/Card'
+import CarouselDemo from './layout/Carousel'
 import SidebarDemo from './layout/Sidebar'
 import PageDemo from './layout/Page'
 
@@ -28,6 +29,7 @@ const routes: Route[] = [
   { path: '/button', name: 'Button', element: ButtonDemo },
   { path: '/calendar', name: 'Calendar', element: CalendarDemo },
   { path: '/card', name: 'Card', element: CardDemo },
+  { path: '/carousel', name: 'Carousel', element: CarouselDemo },
   { path: '/sidebar', name: 'Sidebar', element: SidebarDemo },
   { path: '/page', name: 'Page', element: PageDemo },
 ]
