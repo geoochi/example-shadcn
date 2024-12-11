@@ -5,6 +5,7 @@ import AlertDemo from './layout/Alert'
 import AlertDialogDemo from './layout/AlertDialog'
 import AvatarDemo from './layout/Avatar'
 import BadgeDemo from './layout/Badge'
+import BreadcrumbDemo from './layout/Breadcrumb'
 import PageDemo from './layout/Page'
 
 interface Route {
@@ -21,6 +22,7 @@ const routes: Route[] = [
   { path: '/alert-dialog', name: 'AlertDialog', element: AlertDialogDemo },
   { path: '/avatar', name: 'Avatar', element: AvatarDemo },
   { path: '/badge', name: 'Badge', element: BadgeDemo },
+  { path: '/breadcrumb', name: 'Breadcrumb', element: BreadcrumbDemo },
   { path: '/page', name: 'Page', element: PageDemo },
 ]
 
