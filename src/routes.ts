@@ -1,54 +1,52 @@
-import { lazy } from 'react'
-
-const Home = lazy(() => import('./layout/Home'))
-const AccordionDemo = lazy(() => import('./layout/Accordion'))
-const AlertDemo = lazy(() => import('./layout/Alert'))
-const AlertDialogDemo = lazy(() => import('./layout/AlertDialog'))
-const AvatarDemo = lazy(() => import('./layout/Avatar'))
-const BadgeDemo = lazy(() => import('./layout/Badge'))
-const BreadcrumbDemo = lazy(() => import('./layout/Breadcrumb'))
-const ButtonDemo = lazy(() => import('./layout/Button'))
-const CalendarDemo = lazy(() => import('./layout/Calendar'))
-const CardDemo = lazy(() => import('./layout/Card'))
-const CarouselDemo = lazy(() => import('./layout/Carousel'))
-const ChartDemo = lazy(() => import('./layout/Chart'))
-const CheckboxDemo = lazy(() => import('./layout/CheckBox'))
-const CollapsibleDemo = lazy(() => import('./layout/Collapsible'))
-const ComboboxDemo = lazy(() => import('./layout/Combobox'))
-const CommandDemo = lazy(() => import('./layout/Command'))
-const ContextMenuDemo = lazy(() => import('./layout/ContextMenu'))
-const DataTableDemo = lazy(() => import('./layout/DataTable'))
-const DatePickerDemo = lazy(() => import('./layout/DatePicker'))
-const DialogDemo = lazy(() => import('./layout/Dialog'))
-const DrawerDemo = lazy(() => import('./layout/Drawer'))
-const DropdownMenuDemo = lazy(() => import('./layout/DropdownMenu'))
-const FormDemo = lazy(() => import('./layout/Form'))
-const HoverCardDemo = lazy(() => import('./layout/HoverCard'))
-const InputDemo = lazy(() => import('./layout/Input'))
-const InputOTPDemo = lazy(() => import('./layout/InputOTP'))
-const LabelDemo = lazy(() => import('./layout/Label'))
-const MenubarDemo = lazy(() => import('./layout/Menubar'))
-const NavigationMenuDemo = lazy(() => import('./layout/NavigationMenu'))
-const PaginationDemo = lazy(() => import('./layout/Pagination'))
-const PopoverDemo = lazy(() => import('./layout/Popover'))
-const ProgressDemo = lazy(() => import('./layout/Progress'))
-const RadioGroupDemo = lazy(() => import('./layout/RadioGroup'))
-const ResizableDemo = lazy(() => import('./layout/Resizable'))
-const ScrollAreaDemo = lazy(() => import('./layout/ScrollArea'))
-const SelectDemo = lazy(() => import('./layout/Select'))
-const SeparatorDemo = lazy(() => import('./layout/Separator'))
-const SheetDemo = lazy(() => import('./layout/Sheet'))
-const SidebarDemo = lazy(() => import('./layout/Sidebar'))
-const SkeletonDemo = lazy(() => import('./layout/Skeleton'))
-const SliderDemo = lazy(() => import('./layout/Slider'))
-const SwitchDemo = lazy(() => import('./layout/Switch'))
-const TableDemo = lazy(() => import('./layout/Table'))
-const TabsDemo = lazy(() => import('./layout/Tabs'))
-const TextareaDemo = lazy(() => import('./layout/TextArea'))
-const ToggleDemo = lazy(() => import('./layout/Toggle'))
-const ToggleGroupDemo = lazy(() => import('./layout/ToggleGroup'))
-const TooltipDemo = lazy(() => import('./layout/Tooltip'))
-const PageDemo = lazy(() => import('./layout/Page'))
+import Home from './layout/Home'
+import AccordionDemo from './layout/Accordion'
+import AlertDemo from './layout/Alert'
+import AlertDialogDemo from './layout/AlertDialog'
+import AvatarDemo from './layout/Avatar'
+import BadgeDemo from './layout/Badge'
+import BreadcrumbDemo from './layout/Breadcrumb'
+import ButtonDemo from './layout/Button'
+import CalendarDemo from './layout/Calendar'
+import CardDemo from './layout/Card'
+import CarouselDemo from './layout/Carousel'
+import ChartDemo from './layout/Chart'
+import CheckboxDemo from './layout/CheckBox'
+import CollapsibleDemo from './layout/Collapsible'
+import ComboboxDemo from './layout/Combobox'
+import CommandDemo from './layout/Command'
+import ContextMenuDemo from './layout/ContextMenu'
+import DataTableDemo from './layout/DataTable'
+import DatePickerDemo from './layout/DatePicker'
+import DialogDemo from './layout/Dialog'
+import DrawerDemo from './layout/Drawer'
+import DropdownMenuDemo from './layout/DropdownMenu'
+import FormDemo from './layout/Form'
+import HoverCardDemo from './layout/HoverCard'
+import InputDemo from './layout/Input'
+import InputOTPDemo from './layout/InputOTP'
+import LabelDemo from './layout/Label'
+import MenubarDemo from './layout/Menubar'
+import NavigationMenuDemo from './layout/NavigationMenu'
+import PaginationDemo from './layout/Pagination'
+import PopoverDemo from './layout/Popover'
+import ProgressDemo from './layout/Progress'
+import RadioGroupDemo from './layout/RadioGroup'
+import ResizableDemo from './layout/Resizable'
+import ScrollAreaDemo from './layout/ScrollArea'
+import SelectDemo from './layout/Select'
+import SeparatorDemo from './layout/Separator'
+import SheetDemo from './layout/Sheet'
+import SidebarDemo from './layout/Sidebar'
+import SkeletonDemo from './layout/Skeleton'
+import SliderDemo from './layout/Slider'
+import SwitchDemo from './layout/Switch'
+import TableDemo from './layout/Table'
+import TabsDemo from './layout/Tabs'
+import TextareaDemo from './layout/TextArea'
+import ToggleDemo from './layout/Toggle'
+import ToggleGroupDemo from './layout/ToggleGroup'
+import TooltipDemo from './layout/Tooltip'
+import PageDemo from './layout/Page'
 
 interface Route {
   path: string
