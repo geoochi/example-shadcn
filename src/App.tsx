@@ -1,7 +1,7 @@
 import { HashRouter, Routes, Route, useLocation } from 'react-router'
 import routes from './routes'
 
-const pageNames = ['/page']
+const pageNames = ['/page', '/sidebar']
 
 function AppContent() {
   const location = useLocation()
