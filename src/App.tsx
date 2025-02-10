@@ -1,6 +1,5 @@
 import { HashRouter, Routes, Route, useLocation } from 'react-router'
 import routes from './routes'
-import { Button } from './components/ui/button'
 
 const pageNames = ['/page']
 
