@@ -6,13 +6,11 @@ export default function CalendarDemo() {
   const [date, setDate] = useState<Date | undefined>(new Date())
 
   return (
-    <div className='flex h-screen items-center justify-center'>
-      <Calendar
-        mode='single'
-        selected={date}
-        onSelect={setDate}
-        className='rounded-md border'
-      />
-    </div>
+    <Calendar
+      mode='single'
+      selected={date}
+      onSelect={setDate}
+      className='rounded-md border'
+    />
   )
 }

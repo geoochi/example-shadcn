@@ -16,7 +16,7 @@ import {
 
 export default function BreadcrumbDemo() {
   return (
-    <div className='flex h-screen flex-col items-center justify-center gap-4'>
+    <>
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>
@@ -46,6 +46,6 @@ export default function BreadcrumbDemo() {
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
-    </div>
+    </>
   )
 }

@@ -15,29 +15,27 @@ export default function DatePickerDemo() {
   const [date, setDate] = useState<Date>()
 
   return (
-    <div className='flex h-screen items-center justify-center'>
-      <Popover>
-        <PopoverTrigger asChild>
-          <Button
-            variant={'outline'}
-            className={cn(
-              'w-[280px] justify-start text-left font-normal',
-              !date && 'text-muted-foreground'
-            )}
-          >
-            <CalendarIcon />
-            {date ? format(date, 'PPP') : <span>Pick a date</span>}
-          </Button>
-        </PopoverTrigger>
-        <PopoverContent className='w-auto p-0'>
-          <Calendar
-            mode='single'
-            selected={date}
-            onSelect={setDate}
-            initialFocus
-          />
-        </PopoverContent>
-      </Popover>
-    </div>
+    <Popover>
+      <PopoverTrigger asChild>
+        <Button
+          variant={'outline'}
+          className={cn(
+            'w-[280px] justify-start text-left font-normal',
+            !date && 'text-muted-foreground'
+          )}
+        >
+          <CalendarIcon />
+          {date ? format(date, 'PPP') : <span>Pick a date</span>}
+        </Button>
+      </PopoverTrigger>
+      <PopoverContent className='w-auto p-0'>
+        <Calendar
+          mode='single'
+          selected={date}
+          onSelect={setDate}
+          initialFocus
+        />
+      </PopoverContent>
+    </Popover>
   )
 }

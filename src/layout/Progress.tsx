@@ -18,9 +18,5 @@ export default function ProgressDemo() {
     return () => clearInterval(timer)
   }, [])
 
-  return (
-    <div className='flex h-screen items-center justify-center'>
-      <Progress value={progress} className='w-[60%]' />
-    </div>
-  )
+  return <Progress value={progress} className='max-w-sm' />
 }

@@ -31,24 +31,22 @@ const chartConfig = {
 
 export default function ChartDemo() {
   return (
-    <div className='flex h-screen items-center justify-center'>
-      <ChartContainer config={chartConfig} className='w-1/2 min-w-[400px]'>
-        <BarChart accessibilityLayer data={chartData}>
-          <CartesianGrid vertical={false} />
-          <XAxis
-            dataKey='month'
-            tickLine={false}
-            tickMargin={10}
-            axisLine={false}
-            tickFormatter={value => value.slice(0, 3)}
-          />
-          <YAxis />
-          <ChartTooltip content={<ChartTooltipContent />} />
-          <ChartLegend content={<ChartLegendContent />} />
-          <Bar dataKey='desktop' fill='var(--color-desktop)' radius={4} />
-          <Bar dataKey='mobile' fill='var(--color-mobile)' radius={4} />
-        </BarChart>
-      </ChartContainer>
-    </div>
+    <ChartContainer config={chartConfig} className='w-1/2 min-w-[400px]'>
+      <BarChart accessibilityLayer data={chartData}>
+        <CartesianGrid vertical={false} />
+        <XAxis
+          dataKey='month'
+          tickLine={false}
+          tickMargin={10}
+          axisLine={false}
+          tickFormatter={value => value.slice(0, 3)}
+        />
+        <YAxis />
+        <ChartTooltip content={<ChartTooltipContent />} />
+        <ChartLegend content={<ChartLegendContent />} />
+        <Bar dataKey='desktop' fill='var(--color-desktop)' radius={4} />
+        <Bar dataKey='mobile' fill='var(--color-mobile)' radius={4} />
+      </BarChart>
+    </ChartContainer>
   )
 }
