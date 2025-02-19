@@ -1,14 +1,14 @@
 import { HashRouter, Routes, Route, useLocation } from 'react-router'
 import routes from './routes'
 
-const pageNames = ['/page', '/sidebar']
+const pageIgnores = ['/page', '/sidebar']
 
 function AppContent() {
   const location = useLocation()
 
   return (
     <div className='flex h-screen flex-col'>
-      {!pageNames.includes(location.pathname) && (
+      {!pageIgnores.includes(location.pathname) && (
         <div
           className='flex h-28 cursor-pointer justify-center rounded-none bg-gray-300 text-8xl text-white hover:bg-gray-400'
           onClick={() => (window.location.href = '#')}
