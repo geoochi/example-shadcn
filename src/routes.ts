@@ -48,6 +48,7 @@ import ToggleDemo from './layout/Toggle'
 import ToggleGroupDemo from './layout/ToggleGroup'
 import TooltipDemo from './layout/Tooltip'
 import PageDemo from './layout/Page'
+import SonnerDemo from './layout/Sonner'
 
 interface Route {
   path: string
@@ -102,6 +103,7 @@ const routes: Route[] = [
   { path: '/sidebar', name: 'Sidebar', element: SidebarDemo },
   { path: '/skeleton', name: 'Skeleton', element: SkeletonDemo },
   { path: '/slider', name: 'Slider', element: SliderDemo },
+  { path: '/sonner', name: 'Sonner', element: SonnerDemo },
   { path: '/switch', name: 'Switch', element: SwitchDemo },
   { path: '/table', name: 'Table', element: TableDemo },
   { path: '/tabs', name: 'Tabs', element: TabsDemo },

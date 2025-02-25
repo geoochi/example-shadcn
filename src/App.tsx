@@ -1,9 +1,8 @@
-import { HashRouter, Routes, Route, useLocation } from 'react-router'
+import { Routes, Route, useLocation } from 'react-router'
 import routes from './routes'
-
 const pageIgnores = ['/page', '/sidebar']
 
-function AppContent() {
+export default function App() {
   const location = useLocation()
 
   return (
@@ -28,13 +27,5 @@ function AppContent() {
         </Routes>
       </div>
     </div>
-  )
-}
-
-export default function App() {
-  return (
-    <HashRouter>
-      <AppContent />
-    </HashRouter>
   )
 }
