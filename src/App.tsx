@@ -1,19 +1,27 @@
-import { Routes, Route, useLocation } from 'react-router'
+import { Routes, Route, useLocation, useNavigate } from 'react-router'
+import { useEffect } from 'react'
 import routes from './routes'
 const pageIgnores = ['/page', '/sidebar']
 
 export default function App() {
   const location = useLocation()
-
+  const navigate = useNavigate()
+  // key bind esc to return to home
+  useEffect(() => {
+    const handleKeyPress = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        navigate('/')
+      }
+    }
+    window.addEventListener('keydown', handleKeyPress)
+    return () => {
+      window.removeEventListener('keydown', handleKeyPress)
+    }
+  }, [navigate])
   return (
     <div className='flex h-screen flex-col'>
       {!pageIgnores.includes(location.pathname) && (
-        <div
-          className='flex h-28 cursor-pointer justify-center rounded-none bg-gray-300 text-8xl text-white hover:bg-gray-400'
-          onClick={() => (window.location.href = '#')}
-        >
-          <p>return</p>
-        </div>
+        <p className='text-8xl text-center text-gray-100'>press esc to return</p>
       )}
       <div className='flex flex-1 items-center justify-center'>
         <Routes>
