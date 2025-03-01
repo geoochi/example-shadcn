@@ -21,7 +21,9 @@ export default function App() {
   return (
     <div className='flex h-screen flex-col'>
       {!pageIgnores.includes(location.pathname) && (
-        <p className='text-8xl text-center text-gray-100'>press esc to return</p>
+        <p className='text-center text-8xl text-gray-100'>
+          press esc to return
+        </p>
       )}
       <div className='flex flex-1 items-center justify-center'>
         <Routes>
