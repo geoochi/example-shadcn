@@ -2,7 +2,7 @@ import { Routes, Route, useLocation, useNavigate } from 'react-router'
 import { useEffect } from 'react'
 import routes from '@/routes'
 import useTheme from '@/hooks/use-theme'
-import Home from '@/layout/Home'
+import Home from '@/Home'
 
 const pageIgnores = ['/page', '/sidebar']
 
