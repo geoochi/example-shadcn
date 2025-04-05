@@ -1,9 +1,12 @@
 import { Routes, Route, useLocation, useNavigate } from 'react-router'
 import { useEffect } from 'react'
-import routes from './routes'
+import routes from '@/routes'
+import useTheme from '@/hooks/use-theme'
+
 const pageIgnores = ['/page', '/sidebar']
 
-export default function App() {
+const App: React.FC = () => {
+  useTheme()
   const location = useLocation()
   const navigate = useNavigate()
   // key bind esc to return to home
@@ -21,21 +24,17 @@ export default function App() {
   return (
     <div className='flex h-screen flex-col'>
       {!pageIgnores.includes(location.pathname) && (
-        <p className='text-center text-8xl text-gray-100'>
-          press esc to return
-        </p>
+        <p className='text-center text-8xl text-gray-100 dark:text-gray-900'>press esc to return</p>
       )}
       <div className='flex flex-1 items-center justify-center'>
         <Routes>
           {routes.map(route => (
-            <Route
-              key={route.path}
-              path={route.path}
-              element={<route.element />}
-            />
+            <Route key={route.path} path={route.path} element={<route.element />} />
           ))}
         </Routes>
       </div>
     </div>
   )
 }
+
+export default App
