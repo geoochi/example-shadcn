@@ -1,4 +1,3 @@
-import Home from './layout/Home'
 import AccordionDemo from './layout/Accordion'
 import AlertDemo from './layout/Alert'
 import AlertDialogDemo from './layout/AlertDialog'
@@ -57,7 +56,6 @@ interface Route {
 }
 
 const routes: Route[] = [
-  { path: '/', name: 'Home', element: Home },
   { path: '/accordion', name: 'Accordion', element: AccordionDemo },
   { path: '/alert', name: 'Alert', element: AlertDemo },
   { path: '/alert-dialog', name: 'Alert Dialog', element: AlertDialogDemo },

@@ -2,6 +2,7 @@ import { Routes, Route, useLocation, useNavigate } from 'react-router'
 import { useEffect } from 'react'
 import routes from '@/routes'
 import useTheme from '@/hooks/use-theme'
+import Home from '@/layout/Home'
 
 const pageIgnores = ['/page', '/sidebar']
 
@@ -12,9 +13,7 @@ const App: React.FC = () => {
   // key bind esc to return to home
   useEffect(() => {
     const handleKeyPress = (event: KeyboardEvent) => {
-      if (event.key === 'Escape') {
-        navigate('/')
-      }
+      if (event.key === 'Escape') navigate('/')
     }
     window.addEventListener('keydown', handleKeyPress)
     return () => {
@@ -28,9 +27,14 @@ const App: React.FC = () => {
       )}
       <div className='flex flex-1 items-center justify-center'>
         <Routes>
+          <Route path='/' element={<Home />} />
           {routes.map(route => (
             <Route key={route.path} path={route.path} element={<route.element />} />
           ))}
+          <Route
+            path='*'
+            element={<h1 className='text-4xl text-gray-100 dark:text-gray-900'>404 Not Found</h1>}
+          />
         </Routes>
       </div>
     </div>
