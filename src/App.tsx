@@ -10,7 +10,7 @@ const App: React.FC = () => {
   useTheme()
   const location = useLocation()
   const navigate = useNavigate()
-  // key bind esc to return to home
+  // key bind esc to go home
   useEffect(() => {
     const handleKeyPress = (event: KeyboardEvent) => {
       if (event.key === 'Escape') navigate('/')
@@ -23,7 +23,7 @@ const App: React.FC = () => {
   return (
     <div className='flex h-screen flex-col'>
       {!pageIgnores.includes(location.pathname) && (
-        <p className='text-center text-8xl text-gray-100 dark:text-gray-900'>press esc to return</p>
+        <p className='text-center text-8xl text-gray-100 dark:text-gray-900'>press esc to go home</p>
       )}
       <div className='flex flex-1 items-center justify-center'>
         <Routes>
