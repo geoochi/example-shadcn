@@ -33,7 +33,7 @@ const App: React.FC = () => {
           ))}
           <Route
             path='*'
-            element={<h1 className='text-4xl text-gray-100 dark:text-gray-900'>404 Not Found</h1>}
+            element={<h1 className='text-4xl'>404 Not Found</h1>}
           />
         </Routes>
       </div>
