@@ -1,12 +1,5 @@
 import { Button } from '@/components/ui/button'
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from '@/components/ui/card'
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
@@ -22,9 +15,7 @@ export default function TabsDemo() {
         <Card>
           <CardHeader>
             <CardTitle>Account</CardTitle>
-            <CardDescription>
-              Make changes to your account here. Click save when you're done.
-            </CardDescription>
+            <CardDescription>Make changes to your account here. Click save when you're done.</CardDescription>
           </CardHeader>
           <CardContent className='space-y-2'>
             <div className='space-y-1'>
@@ -45,9 +36,7 @@ export default function TabsDemo() {
         <Card>
           <CardHeader>
             <CardTitle>Password</CardTitle>
-            <CardDescription>
-              Change your password here. After saving, you'll be logged out.
-            </CardDescription>
+            <CardDescription>Change your password here. After saving, you'll be logged out.</CardDescription>
           </CardHeader>
           <CardContent className='space-y-2'>
             <div className='space-y-1'>

@@ -5,7 +5,10 @@ export default function SidebarDemo() {
   return (
     <SidebarProvider>
       <AppSidebar />
-      <SidebarTrigger />
+      <main>
+        <SidebarTrigger />
+        {/* {children} */}
+      </main>
     </SidebarProvider>
   )
 }

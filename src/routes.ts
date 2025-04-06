@@ -42,7 +42,6 @@ import SwitchDemo from './layout/Switch'
 import TableDemo from './layout/Table'
 import TabsDemo from './layout/Tabs'
 import TextareaDemo from './layout/TextArea'
-import ToastDemo from './layout/Toast'
 import ToggleDemo from './layout/Toggle'
 import ToggleGroupDemo from './layout/ToggleGroup'
 import TooltipDemo from './layout/Tooltip'
@@ -106,7 +105,6 @@ const routes: Route[] = [
   { path: '/table', name: 'Table', element: TableDemo },
   { path: '/tabs', name: 'Tabs', element: TabsDemo },
   { path: '/textarea', name: 'Textarea', element: TextareaDemo },
-  { path: '/toast', name: 'Toast', element: ToastDemo },
   { path: '/toggle', name: 'Toggle', element: ToggleDemo },
   { path: '/toggle-group', name: 'Toggle Group', element: ToggleGroupDemo },
   { path: '/tooltip', name: 'Tooltip', element: TooltipDemo },

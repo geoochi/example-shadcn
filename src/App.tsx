@@ -28,13 +28,10 @@ const App: React.FC = () => {
       <div className='flex flex-1 items-center justify-center'>
         <Routes>
           <Route path='/' element={<Home />} />
-          {routes.map(route => (
+          {routes.map((route) => (
             <Route key={route.path} path={route.path} element={<route.element />} />
           ))}
-          <Route
-            path='*'
-            element={<h1 className='text-4xl'>404 Not Found</h1>}
-          />
+          <Route path='*' element={<h1 className='text-4xl'>404 Not Found</h1>} />
         </Routes>
       </div>
     </div>

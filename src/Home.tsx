@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 w-full max-w-7xl gap-4 px-4'>
       {routes.map(
-        route =>
+        (route) =>
           route.name !== 'Home' && (
             <Link
               className={cn(

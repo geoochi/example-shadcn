@@ -68,14 +68,12 @@ export default function TableDemo() {
           </TableRow>
         </TableHeader>
         <TableBody>
-          {invoices.map(invoice => (
+          {invoices.map((invoice) => (
             <TableRow key={invoice.invoice}>
               <TableCell className='font-medium'>{invoice.invoice}</TableCell>
               <TableCell>{invoice.paymentStatus}</TableCell>
               <TableCell>{invoice.paymentMethod}</TableCell>
-              <TableCell className='text-right'>
-                {invoice.totalAmount}
-              </TableCell>
+              <TableCell className='text-right'>{invoice.totalAmount}</TableCell>
             </TableRow>
           ))}
         </TableBody>
